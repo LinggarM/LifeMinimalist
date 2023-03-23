@@ -21,7 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/margin_huge"
-            android:layout_marginBottom="@dimen/margin_huge"
+            android:layout_marginBottom="@dimen/margin_large"
             android:gravity="center"
             android:orientation="horizontal">
 
@@ -56,7 +56,6 @@
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/font_quicksand"
                 android:inputType="textEmailAddress" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -74,7 +73,6 @@
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/font_quicksand"
                 android:inputType="textPassword" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -85,7 +83,6 @@
             android:layout_marginTop="@dimen/margin_small"
             android:text="Forgot Password?"
             android:textStyle="bold"
-            android:fontFamily="@font/font_quicksand"
             android:textColor="@color/colorPrimary"
             android:textAlignment="viewEnd"/>
 
@@ -94,7 +91,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/margin_large"
             android:text="LOGIN"
-            android:textSize="24sp"
+            android:textSize="22sp"
             android:fontFamily="@font/font_playfair_bold"
             android:padding="@dimen/margin_medium"/>
 
@@ -106,19 +103,18 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent">
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp">
 
         <com.google.android.material.textview.MaterialTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/font_quicksand"
             android:text="Don’t have any account? "
             android:textColor="@color/colorPrimary" />
 
         <com.google.android.material.textview.MaterialTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/font_quicksand"
             android:text="@string/sign_up"
             android:textColor="@color/colorPrimary"
             android:textStyle="bold" />
